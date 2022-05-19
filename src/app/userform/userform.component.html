@@ -65,9 +65,11 @@
 
 <ol class="list-group list-group-numbered">
     <li *ngFor="let u of users; index as i" class="list-group-item">
-        <span> User Name: {{u.name}}</span>
+        <span> User Name: {{u.name | uppercase}}</span>
         <br/>
         <span> User Age: {{u.age}}</span>
+        <br/>
+        <span> Gender: {{u.Gender | lowercase}}</span>
     </li>
     
   </ol>
