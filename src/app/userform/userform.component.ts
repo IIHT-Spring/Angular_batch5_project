@@ -28,5 +28,11 @@ export class UserformComponent implements OnInit {
   }
   constructor(public userService: UserService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const promise = this.userService.getUsers();
+    promise.subscribe((response) => {
+      console.log(response);
+      this.users = response as User[]; 
+    })
+  }
 }
