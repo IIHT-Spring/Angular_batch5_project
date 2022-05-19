@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
+import User from "../entity/User"
 @Component({
   selector: 'app-userform',
   templateUrl: './userform.component.html',
@@ -7,11 +8,9 @@ import { UserService } from '../user.service';
 })
 export class UserformComponent implements OnInit {
   title = 'usersForm';
-  user = {
-    name: '',
-    age: 0,
-    Gender: 'Male',
-  };
+  
+  user: User = new User()
+  users: User[]= []
 
   save() {
     // console.log("the name of the user is " + this.user.name + " age : "+ this.user.age + "who's gender is : "+ this.user.gender);

@@ -62,3 +62,12 @@
 <button type="button" (click)="save()" class="btn btn-primary btn-lg">
   Submit
 </button>
+
+<ol class="list-group list-group-numbered">
+    <li *ngFor="let u of users; index as i" class="list-group-item">
+        <span>{{u.name}}</span>
+        <span>{{u.age}}</span>
+
+    </li>
+    
+  </ol>
