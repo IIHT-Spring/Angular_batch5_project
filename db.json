@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Nishant",
+      "age": 32,
+      "Gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "nishanyt",
+      "age": "12",
+      "Gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "Akshay",
+      "age": "32",
+      "Gender": "Male",
+      "id": 3
+    },
+    {
+      "name": "Sejal",
+      "age": "30",
+      "Gender": "Female",
+      "id": 4
+    },
+    {
+      "name": "vijay",
+      "age": "20",
+      "Gender": "Male",
+      "id": 5
+    },
+    {
+      "name": "Nishant",
+      "age": "12",
+      "Gender": "Male",
+      "id": 6
+    }
+  ]
+}

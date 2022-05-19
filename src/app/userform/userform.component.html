@@ -1,0 +1,64 @@
+<h1>{{ title }}</h1>
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+  <input
+    [(ngModel)]="user.name"
+    placeholder="Enter your username"
+    type="text"
+    class="form-control"
+    aria-label="Sizing example input"
+    aria-describedby="inputGroup-sizing-default"
+  />
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-default">Age</span>
+  <input
+    [(ngModel)]="user.age"
+    placeholder="Enter your age"
+    type="text"
+    class="form-control"
+    aria-label="Sizing example input"
+    aria-describedby="inputGroup-sizing-default"
+  />
+</div>
+
+<div class="input-group">
+  <div class="input-group-text">
+    <input
+      [(ngModel)]="user.Gender"
+      value="Male"
+      class="form-check-input mt-0"
+      type="radio"
+      aria-label="Radio button for following text input"
+    />
+    Male
+  </div>
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Text input with radio button"
+  />
+  <div class="input-group-text">
+    <input
+      [(ngModel)]="user.Gender"
+      value="Female"
+      class="form-check-input mt-0"
+      type="radio"
+      aria-label="Radio button for following text input"
+    />
+    Female
+  </div>
+
+  <input
+    type="text"
+    class="form-control"
+    aria-label="Text input with radio button"
+  />
+</div>
+
+<br />
+<button type="button" (click)="save()" class="btn btn-primary btn-lg">
+  Submit
+</button>
