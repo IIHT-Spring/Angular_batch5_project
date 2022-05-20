@@ -23,6 +23,14 @@
       "dob": "2016-06-19",
       "education": "MS",
       "id": 3
+    },
+    {
+      "name": "Sanjeev",
+      "age": "10",
+      "Gender": "Male",
+      "dob": "2021-12-17",
+      "education": "PHD",
+      "id": 4
     }
   ]
 }
