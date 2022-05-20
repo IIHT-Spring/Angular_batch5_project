@@ -7,14 +7,16 @@ import { AppComponent } from './app.component';
 import { UserformComponent } from './userform/userform.component';
 import {HttpClientModule} from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CounterComponent } from './counter/counter.component'
+import { CounterComponent } from './counter/counter.component';
+import { EllipsisPipe } from './ellipsis.pipe'
 
 @NgModule({
   declarations: [
     AppComponent,
     UserformComponent,
     NavbarComponent,
-    CounterComponent
+    CounterComponent,
+    EllipsisPipe
   ],
   imports: [
     BrowserModule,
