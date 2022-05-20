@@ -1,78 +1,28 @@
 {
   "users": [
     {
-      "name": "Nishant",
-      "age": 32,
-      "Gender": "Male",
-      "id": 1
-    },
-    {
-      "name": "nishanyt",
-      "age": "12",
-      "Gender": "Male",
-      "id": 2
-    },
-    {
-      "name": "Akshay",
-      "age": "32",
-      "Gender": "Male",
-      "id": 3
-    },
-    {
-      "name": "Sejal",
-      "age": "30",
-      "Gender": "Female",
-      "id": 4
-    },
-    {
-      "name": "vijay",
-      "age": "20",
-      "Gender": "Male",
-      "id": 5
-    },
-    {
-      "name": "Nishant",
-      "age": "12",
-      "Gender": "Male",
-      "id": 6
-    },
-    {
-      "name": "John",
-      "age": "45",
-      "Gender": "Male",
-      "id": 7
-    },
-    {
-      "name": "Peter",
-      "age": "20",
-      "Gender": "Male",
-      "id": 8
-    },
-    {
-      "name": "Peter",
-      "age": "20",
-      "Gender": "Male",
-      "id": 9
-    },
-    {
-      "name": "john",
-      "age": "20",
-      "Gender": "Male",
-      "id": 10
-    },
-    {
-      "name": "Rakesh",
-      "age": "30",
-      "Gender": "Male",
-      "id": 11
-    },
-    {
       "name": "Rajeev",
       "age": "15",
       "Gender": "Male",
       "dob": "2022-05-20",
       "education": "MS",
-      "id": 12
+      "id": 1
+    },
+    {
+      "name": "Nishant",
+      "age": "32",
+      "Gender": "Male",
+      "dob": "1980-10-04",
+      "education": "MBA",
+      "id": 2
+    },
+    {
+      "name": "Sejal",
+      "age": 0,
+      "Gender": "Female",
+      "dob": "2016-06-19",
+      "education": "MS",
+      "id": 3
     }
   ]
 }
