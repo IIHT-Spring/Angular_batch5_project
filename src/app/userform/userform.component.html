@@ -11,6 +11,35 @@
     aria-describedby="inputGroup-sizing-default"
   />
 </div>
+<div>
+  DOB <input type="date"  class="input-group-text" [(ngModel)] = 'user.dob'>
+</div>
+<br/>
+<div>
+  Education : <div class="input-group">
+    <div class="input-group-text">
+      <input [(ngModel)]="user.education" class="form-check-input mt-0" type="radio" value="MS" aria-label="Radio button for following text input"> MS
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+  </div>
+  <br/>
+  <div class="input-group">
+    <div class="input-group-text">
+      <input [(ngModel)]="user.education" class="form-check-input mt-0" type="radio" value="MBA" aria-label="Radio button for following text input"> MBA
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+  </div>
+  <br/>
+  <div class="input-group">
+    <div class="input-group-text">
+      <input [(ngModel)]="user.education" class="form-check-input mt-0" type="radio" value="PHD" aria-label="Radio button for following text input"> PHD
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+  </div>
+</div>
+<br/>
+
+
 
 <div class="input-group mb-3">
   <span class="input-group-text" id="inputGroup-sizing-default">Age</span>
